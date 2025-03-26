@@ -59,7 +59,7 @@ table {
     margin: 20px;
     border-radius: 10px;
     background-color: whitesmoke;
-    font-size: 100px;
+    font-size: 150px;
     padding: 6px;
 }
 
@@ -85,7 +85,6 @@ table {
     -ms-transform: scaleX(-1);
     transform: rotate(180deg);
     margin-bottom: 0;
-    font-size: 100px;
 }
 
 .redColor {
