@@ -94,3 +94,8 @@ table {
 .defaultColor {
     color: black;
 }
+
+.btn_style{
+    color: white;
+    font-size: 100px;
+}

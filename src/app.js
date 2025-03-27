@@ -3,7 +3,7 @@ import "./style.css";
 
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
-
+  
 window.onload = function() {
 
   const iconsCard = ["♦", "♣", "♥", "♠"];
@@ -34,3 +34,13 @@ window.onload = function() {
   document.getElementById("iconDown").innerText = createIcon(randomIcon);
   document.getElementById("number").innerHTML = randomNumber;
 };
+
+const refreshBtn = document.getElementById("btnRefresh");
+
+function handleClick() {
+  window.location.reload();
+}
+
+refreshBtn.addEventListener("click", handleClick);
+
+setInterval(handleClick,10000);
