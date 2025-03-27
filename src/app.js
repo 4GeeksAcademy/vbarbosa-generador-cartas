@@ -35,12 +35,13 @@ window.onload = function() {
   document.getElementById("number").innerHTML = randomNumber;
 };
 
+//This will allow the button to refresh every time we click it
 const refreshBtn = document.getElementById("btnRefresh");
 
 function handleClick() {
   window.location.reload();
 }
 
+//This sets timer to reload every 10 seconds
 refreshBtn.addEventListener("click", handleClick);
-
 setInterval(handleClick,10000);
