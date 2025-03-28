@@ -42,6 +42,6 @@ function handleClick() {
   window.location.reload();
 }
 
-//This sets timer to reload every 10 seconds
+// This sets timer to reload every 10 seconds
 refreshBtn.addEventListener("click", handleClick);
 setInterval(handleClick,10000);

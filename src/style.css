@@ -53,26 +53,26 @@ table {
 /* From here is my code */
 
 .card_container{
-    width: 30%;
-    height: 600px;
+    width: 27%;
+    height: 540px;
     position: relative;
     margin: 20px;
     border-radius: 10px;
     background-color: whitesmoke;
     font-size: 150px;
-    padding: 6px;
+    padding: 10px;
+    align-content: center;
 }
 
 .number{
-    height: 70%;
     align-content: center;
     padding: 3px;
     justify-content: center;
     text-align: center;
+    height: 50%;
 }
 
 .icon_Up{
-    height: 10%;
     margin: 0;
 }
 
